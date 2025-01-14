@@ -1,5 +1,5 @@
 <h1 align="center">
-    A Simple LC-3 Virtual Machine Implementation with Paging 
+    LC-3 Virtual Machine Implementation with Paging 
 </h1>
 
 <div align="center">
