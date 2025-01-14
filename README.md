@@ -139,7 +139,7 @@ The project includes several sample scripts that demonstrate different aspects o
 
 ## Acknowledgements
 - This project builds upon the LC-3 virtual machine implementation by [Andrei Ciobanu](https://github.com/nomemory/lc3-vm). The original implementation provided the foundation for the basic VM functionality, which was then extended with paging and process management capabilities.
-- This project was developed as part of the Operating Systems course at Sabanci University. Special thanks to the course instructor Süha Mutluergil and teaching assistants for their guidance and support.
+- This project was developed as part of the Operating Systems course at Sabanci University. Special thanks to the course instructor Süha Mutluergil and teaching assistants for their guidance and support. The pictures used are prepared by the OS course team. 
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details.
