@@ -1,5 +1,5 @@
 <h1 align="center">
-    
+    A Simple LC-3 Virtual Machine Implementation with Paging 
 </h1>
 A virtual memory implementation with paging support built on top of a LC-3 virtual machine architecture. Features memory management, process handling, and system calls.
 
@@ -35,11 +35,19 @@ The implementation assumes a 16-bit address space with 4KB page size and include
 - Dynamic page allocation and freeing
 - Bitmap-based free page tracking
 
+<div align="center">
+    <img src="phys-mem.png" alt="Snapshot of the physical memory">
+</div>
+ 
 ### Process Management
 - Process Control Block (PCB) support
 - Context switching capabilities 
 - Process creation and termination handling
 - Process scheduling through yield system call
+
+<div align="center">
+    <img src="pte.png" alt="PTE">
+</div>
 
 ### System Calls Implemented
 - `yield`: Voluntarily releases CPU control
@@ -121,7 +129,8 @@ The project includes several sample scripts that demonstrate different aspects o
 - Tests interleaved memory allocation between processes
 
 ## Acknowledgements
-This project builds upon the LC-3 virtual machine implementation by [Andrei Ciobanu](https://github.com/nomemory/lc3-vm). The original implementation provided the foundation for the basic VM functionality, which was then extended with paging and process management capabilities.
+- This project builds upon the LC-3 virtual machine implementation by [Andrei Ciobanu](https://github.com/nomemory/lc3-vm). The original implementation provided the foundation for the basic VM functionality, which was then extended with paging and process management capabilities.
+- This project was developed as part of the Operating Systems course at Sabanci University. Special thanks to the course instructor Süha Mutluergil and teaching assistants for their guidance and support.
 
 ## License
-MIT License
+This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details.
