@@ -36,7 +36,7 @@ The implementation assumes a 16-bit address space with 4KB page size and include
 - Bitmap-based free page tracking
 
 <div align="center">
-    <img src="phys-mem.png" alt="Snapshot of the physical memory">
+    <img src="phys-mem.png" alt="Snapshot of the physical memory" width="300">
 </div>
  
 ### Process Management
@@ -46,7 +46,7 @@ The implementation assumes a 16-bit address space with 4KB page size and include
 - Process scheduling through yield system call
 
 <div align="center">
-    <img src="pte.png" alt="PTE">
+    <img src="pte.png" alt="PTE" width="300">
 </div>
 
 ### System Calls Implemented
