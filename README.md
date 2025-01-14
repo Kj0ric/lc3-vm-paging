@@ -1,6 +1,15 @@
 <h1 align="center">
     A Simple LC-3 Virtual Machine Implementation with Paging 
 </h1>
+
+<div align="center">
+
+[![PL](https://img.shields.io/badge/C-blue?style=for-the-badge&logo=c&logoColor=white)]()
+[![Status](https://img.shields.io/badge/status-completed-green?style=for-the-badge)]()
+[![License](https://img.shields.io/badge/license-MIT-red?style=for-the-badge)](/LICENSE)
+
+</div>
+
 A virtual memory implementation with paging support built on top of a LC-3 virtual machine architecture. Features memory management, process handling, and system calls.
 
 ## Table of Contents
@@ -13,7 +22,7 @@ A virtual memory implementation with paging support built on top of a LC-3 virtu
 - [License](#license)
 
 ## Overview
-This project extends an existing LC-3 virtual machine implementation to incorporate paging and virtual memory management capabilities. It builds upon [Andrei Ciobanu's LC-3 VM implementation](https://github.com/nomemory/lc3-vm) by adding:
+This project extends an existing virtual machine implementation that uses simple assembly language, LC-3 to incorporate paging and virtual memory management capabilities. It builds upon [Andrei Ciobanu's LC-3 VM implementation](https://github.com/nomemory/lc3-vm) by adding:
 - Page-based memory management 
 - Virtual-to-physical address translation
 - Multi-process support with PCBs (Process Control Blocks)
